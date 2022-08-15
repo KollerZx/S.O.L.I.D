@@ -1,6 +1,6 @@
 import { ShoppingCartLegacy } from "./shopping-cart legacy"
 
-describe.skip('ShoppingCart', () => {
+describe('ShoppingCart - Legacy', () => {
     test("Deve ser possível adicionar itens ao carrinho", () => {
         const cart = new ShoppingCartLegacy()
         const item1 = { name: "Calculadora", price: 7.5 }

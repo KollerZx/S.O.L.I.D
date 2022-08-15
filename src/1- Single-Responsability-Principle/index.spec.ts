@@ -4,7 +4,7 @@ import { ShoppingCart } from "./entities/shopping-cart"
 import { Messaging } from "./services/messaging"
 import { Persistency } from "./services/persistency"
 
-describe.skip("Single Responsability Principle", () => {
+describe("Single Responsability Principle", () => {
     test("Deve ser possível adicionar itens ao carrinho", () => {
         const cart = new ShoppingCart()
         const item1 = new Product("Calculadora", 7.5)
